@@ -1,0 +1,28 @@
+body{
+	font-family: ubuntu;
+	color: #FFFFFF;
+}
+.play-button{
+	margin-top: 3%;
+	margin-bottom: 3%;		
+}
+.heading{
+	margin-top: 5%;
+	text-align: center;
+}
+.img-div{
+	text-align: center;
+	margin-top: 5%;
+}
+img {
+  width: 200px;
+  height: 200px;
+  -webkit-transition-property: width, height; /* Safari */
+  -webkit-transition-duration: 2s; /* Safari */
+  transition-property: width, height;
+  transition-duration: 2s;
+}
+img:hover {
+  width: 400px;
+  height: 400px;
+}	
